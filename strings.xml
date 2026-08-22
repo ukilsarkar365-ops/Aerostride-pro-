@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AeroStride Pro</string>
+    <string name="race_target_title">Race Target / রেস টার্গেট</string>
+    <string name="track_size_title">Track Size / ট্র্যাক সাইজ</string>
+    <string name="start_run">Start Run</string>
+    <string name="stop_run">Stop Run</string>
+    <string name="pause_run">Pause</string>
+    <string name="resume_run">Resume</string>
+</resources>

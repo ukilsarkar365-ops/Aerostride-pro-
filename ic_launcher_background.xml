@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#090A0F"/>
+                <item android:offset="0.5" android:color="#121624"/>
+                <item android:offset="1.0" android:color="#0B0E18"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Speed arcs and track rings -->
+    <path
+        android:strokeColor="#1F293D"
+        android:strokeWidth="1.5"
+        android:pathData="M18,90 A45,45 0 0,1 90,18" />
+    <path
+        android:strokeColor="#162235"
+        android:strokeWidth="1.0"
+        android:pathData="M26,90 A36,36 0 0,1 90,26" />
+    <path
+        android:strokeColor="#0E3A28"
+        android:strokeWidth="2.0"
+        android:pathData="M34,90 A28,28 0 0,1 90,34" />
+</vector>

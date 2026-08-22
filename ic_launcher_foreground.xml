@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Neon Speed Trail Lines -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,70 L42,70" />
+    <path
+        android:strokeColor="#00FF66"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M20,78 L48,78" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M28,86 L40,86" />
+
+    <!-- Runner Head -->
+    <path
+        android:fillColor="#00FF66"
+        android:pathData="M65.5,29.5 A5.5,5.5 0 1,0 76.5,29.5 A5.5,5.5 0 1,0 65.5,29.5 Z" />
+
+    <!-- Runner Body & Striding Limbs (Athletic Sprint Silhouette) -->
+    <path
+        android:pathData="M64,36 L57,48 L44,45 L37,55 L42,58 L47,50 L56,53 L51,68 L36,75 L38,81 L56,73 L63,57 L72,61 L80,55 L77,50 L70,54 L64,43 L69,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="36"
+                android:endX="80"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00FF66"/>
+                <item android:offset="1.0" android:color="#00E5FF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Trailing Leg Extension -->
+    <path
+        android:fillColor="#00FF66"
+        android:pathData="M59,62 L74,78 L84,75 L82,69 L75,72 L62,58 Z" />
+    <!-- GPS Location Pulse Indicator -->
+    <path
+        android:fillColor="#FFCC00"
+        android:pathData="M78,24 A3,3 0 1,0 84,24 A3,3 0 1,0 78,24 Z" />
+</vector>
