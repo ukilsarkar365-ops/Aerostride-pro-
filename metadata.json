@@ -1,0 +1,6 @@
+{
+  "name": "AeroStride Pro",
+  "description": "Athletic GPS Tracker with Target Lap Planning, Voice Coach & Split Analytics for Runners",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
